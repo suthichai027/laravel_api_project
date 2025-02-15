@@ -5,11 +5,11 @@
     <div class="sidebar-body">
         <div class="menu">
             <ul>
-                <li wire:click="changeMenu('dashboard')" @if ($currentMenu == 'dashboard') class="active" @endif>
+                <li wire:click="changeMenu('dashboard')" @if ($currentMenu == 'dashboard') class="active " @endif>
                     <i class="fa-solid fa-chart-line me-2"></i>Dashboard
                 </li>
                 <li wire:click="changeMenu('pay')" @if ($currentMenu == 'pay') class="active" @endif>
-                    <i class="fa-solid fa-file-invoice-dollar me-2"></i>บันทึกค่าใช้จ่าย
+                    <i class="fa-solid fa-file-invoice-dollar me-2 "></i>บันทึกค่าใช้จ่าย
                 </li>
                 <li wire:click="changeMenu('room')" @if ($currentMenu == 'room') class="active" @endif>
                     <i class="fa-solid fa-bed me-2"></i>ห้องพัก
